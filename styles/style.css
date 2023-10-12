@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 174, 173)
+}
+
+.correo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/*header*/
+.navoveja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginas {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/*index*/
+.main-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageninicio {
+    display: flex;
+    justify-content: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    max-width: 1400px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-item {
+    height: 700px;
+    width: 1300px;
+}
+.d-img {
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.body {
+    background-color: #FFFFFF;
+    background-size: contain;
+}
+
+.videos {
+    text-align: center;
+}
+
+.comotrabajamos {
+    text-align: center;
+}
+
+.cajas {
+    display: flex;
+    width: 100%
+}
+
+.cartas {
+    display: inline-block;
+    background-color: rgb(249, 231, 232);
+    width: 330px;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.contenido,
+comotrabajamos,
+videos {
+
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-bottom: 0px;
+    padding-right: 100px;
+}
+
+.carta_texto {
+    margin-bottom: 10px;
+}
+
+/*que_es_oveja*/
+.main__oveja {
+    padding-top: 0px;
+    padding-left: 7%;
+    padding-bottom: 0px;
+    padding-right: 7%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cajita__oveja {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.contenido__oveja {
+    display: flex;
+    width: 100%;
+    padding-block: 10px;
+    overflow: hidden;
+}
+
+.texto__oveja {
+    float: left;
+    width: 55%;
+    text-align: start;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.imagen__oveja {
+    float: right;
+    width: 40%;
+
+}
+
+.mision {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.equipo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bea {
+    display: flex;
+    width: 50%;
+    background-color: #f8edeb;
+    overflow: hidden;
+    padding: 10px;
+
+    flex-direction: column;
+}
+
+.texto__bea {
+    width: 50%;
+    text-align: start;
+    line-height: 1.5;
+    padding: 10px;
+
+}
+
+.imagen__bea {
+    width: 40%;
+
+}
+
+.isa {
+    display: flex;
+    width: 50%;
+    background-color: #f8edeb;
+    padding: 10px;
+    overflow: hidden;
+
+    flex-direction: column;
+}
+
+.texto__isa {
+    width: 50%;
+    text-align: start;
+    padding: 12px;
+    line-height: 1.5;
+}
+
+.imagen__isa {
+    width: 40%;
+}
+
+/*workshops*/
+.main {
+    padding-top: 0px;
+    padding-left: 7%;
+    padding-bottom: 0px;
+    padding-right: 7%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cajita__workshops {
+    display: inline-block;
+    width: 22%;
+    background-color: #f8edeb;
+    padding: 10px;
+    margin-block: 13px;
+    border-radius: 5px;
+    margin-inline: 1%;
+    align-items: center;
+}
+
+.cajita__imagen {
+    width: 200px;
+    padding-top: 10px;
+}
+
+.subtitulo__workshops {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*colaboraciones*/
+.main__colaboraciones {
+    padding-top: 0px;
+    padding-left: 7%;
+    padding-bottom: 0px;
+    padding-right: 7%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colaboraciones {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    padding-block: 10px;
+    overflow: hidden;
+}
+
+.texto__colaboraciones {
+    float: left;
+    width: 55%;
+    text-align: start;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.imagen__colaboraciones {
+    float: right;
+    width: 40%;
+}
+
+
+.marcas {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.marca__urku {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    align-items: end;
+    text-align: justify;
+    background-color: #f8edeb;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.marca__zular {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: end;
+    text-align: justify;
+    background-color: #f8edeb;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+
+.marca__film {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    align-items: end;
+    text-align: justify;
+    background-color: #f8edeb;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*contacto*/
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    margin: 18px;
+}
+
+.subtitulo {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.texto__contacto {
+
+    padding-left: 18px;
+    text-align: left;
+}
+
+.nombre {
+    width: 560px;
+    background-color: #f8edeb;
+}
+
+.email {
+    width: 560px;
+    background-color: #f8edeb;
+}
+
+.select {
+    width: 560px;
+    background-color: #f8edeb;
+}
+
+.mensaje {
+    width: 560px;
+    background-color: #f8edeb;
+}
+
+.boton {
+    margin-block: 15px;
+}
+
+
+/*vista mobile*/
+@media screen and (max-width:480px) {
+    .header{
+        flex-direction: column;
+    }
+}
