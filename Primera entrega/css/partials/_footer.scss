@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 174, 173);
+
+    .correo {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}

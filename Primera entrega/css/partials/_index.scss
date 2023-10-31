@@ -1,0 +1,79 @@
+.main__index {
+    .imageninicio {
+        display: flex;
+        justify-content: center;
+        padding-left: 3%;
+        padding-right: 3%;
+        max-width: 1400px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .d-item {
+            height: 700px;
+            width: 1300px;
+        }
+
+        .d-img {
+            height: 100%;
+            object-fit: cover;
+
+        }
+    }
+
+    .main-container {
+        padding-left: 5%;
+        padding-right: 5%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .cajas {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+
+
+            .cartas {
+                display: inline-block;
+                background-color: $colorPrincipal;
+                width: 330px;
+                height: 400px;
+                padding: 30px;
+                text-align: center;
+                margin-bottom: 20px;
+                transition: background-color 1s;
+
+                &:hover {
+                    background-color: rgb(243, 174, 173);
+                }
+            }
+        }
+    }
+
+    .comotrabajamos {
+        text-align: center;
+
+        .imagenes__index {
+            max-width: 24%;
+        }
+    }
+
+    .videos {
+        text-align: center;
+    }
+
+    .contenido,
+    comotrabajamos,
+    videos {
+
+        padding-top: 0px;
+        padding-left: 100px;
+        padding-bottom: 0px;
+        padding-right: 100px;
+    }
+
+    .carta_texto {
+        margin-bottom: 10px;
+    }
+}
